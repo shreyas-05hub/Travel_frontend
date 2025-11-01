@@ -43,7 +43,7 @@ const PackageDetails = () => {
     <div
       className="container-fluid min-vh-100"
       style={{
-        backgroundImage: `url(./src/assets/assets1/${destination}_${type
+        backgroundImage: `url(/assets1/${destination}_${type
           .toLowerCase()
           .replaceAll(" ", "")}.jpg)`,
         backgroundRepeat: "no-repeat",
