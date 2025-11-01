@@ -46,7 +46,7 @@ const PackagesData = () => {
     };
 
     try {
-      const response = await fetch("https://travel-backend-98pt.onrender.com/api/recommend", {
+      const response = await fetch("https://travel-backend-ttt9.onrender.com/api/recommend", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -55,6 +55,7 @@ const PackagesData = () => {
       });
 
       if (!response.ok) {
+        console.log("i am getting error")
         throw new Error(`HTTP error! Status: ${response.status}`);
       }
 
