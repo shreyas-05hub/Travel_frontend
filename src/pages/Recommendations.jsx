@@ -1,5 +1,5 @@
 import React from "react";
-import AiHero from "../components/layout/ui/aiRecom/aiHero";
+import AiHero from "../components/layout/ui/aiRecom/AiHero";
 import AIDashboard from "../components/layout/ui/aiRecom/AIDashboard";
 import AiResults from "../components/layout/ui/aiRecom/AiResults";
 
