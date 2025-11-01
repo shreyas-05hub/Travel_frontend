@@ -50,7 +50,7 @@ const Footer = () => {
                 Adventure City
               </p>
               <p>
-                <i className="fas fa-phone me-3"></i> +1 (555) 123-4567
+                <i className="fas fa-phone me-3"></i> +1 (554) 123-4567
               </p>
               <p>
                 <i className="fas fa-envelope me-3"></i>
