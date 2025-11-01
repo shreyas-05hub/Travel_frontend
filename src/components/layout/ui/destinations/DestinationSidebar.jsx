@@ -1,6 +1,6 @@
 // PackageSidebar.jsx
 import React, { useEffect } from "react";
-import "./destinationSidebar.css";
+
 import { useFromcityData } from "./FromcityContext";
 import AOS from "aos";
 
@@ -19,6 +19,10 @@ const DestinationSidebar = () => {
     <div
       className="w-100 sidebar text-primary text-center p-3"
       data-aos="flip-down"
+      style={{
+        
+        background: "radial-gradient(circle, rgba(231, 238, 174, 0.07) 0%, rgb(225, 249, 244) 100%)",
+      }}
     >
       <h5 className="mb-3">Enter Your Travel Preferences</h5>
       <div className="form">
