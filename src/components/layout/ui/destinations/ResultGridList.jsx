@@ -13,7 +13,7 @@ import chennai from "../../../../assets/chennai.jpeg";
 import coorg from "../../../../assets/coorg.jpeg";
 import darjeeling from "../../../../assets/darjeeling.jpg";
 import delhi from "../../../../assets/delhi.jpeg";
-import goa from "../../../../assets/Goa.webp";
+import goa from "../../../../assets/Goa.jpg";
 import jaipur from "../../../../assets/jaipur.jpeg";
 import jaisalmer from "../../../../assets/jaisalmer.jpeg";
 import kochi from "../../../../assets/kochi.jpeg";

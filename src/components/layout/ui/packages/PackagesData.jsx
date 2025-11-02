@@ -4,6 +4,7 @@ import packageData from "../../data/packageData";
 import { usePackageData } from "./PackageProvider";
 import FavPackageTypes from "../favorites/FavPackageTypes";
 import { useFromcityData } from "../destinations/FromcityContext";
+import AOS from "aos";
 
 const PackagesData = () => {
   const [favorites, setFavorites] = useState(() => {
@@ -55,7 +56,6 @@ const PackagesData = () => {
       });
 
       if (!response.ok) {
-        console.log("i am getting error")
         throw new Error(`HTTP error! Status: ${response.status}`);
       }
 
@@ -163,6 +163,10 @@ const PackagesData = () => {
       JSON.stringify(updatedFavorites)
     );
   };
+   useEffect(() => {
+      AOS.init({ duration: 1000, once: true });
+      AOS.refresh();
+    }, []);
   return (
     <div className="container-fluid my-4">
       <div className="container">

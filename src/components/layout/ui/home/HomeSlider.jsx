@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import "./homeslider.css";
 import AOS from "aos";
-import img1 from "../../../../assets/Goa.webp"
+import img1 from "../../../../assets/Goa.jpg"
 import img2 from "../../../../assets/ooty.jpg"
 import img3 from "../../../../assets/jaisalmer.jpeg"
 import img4 from "../../../../assets/udaipur.jpeg"
