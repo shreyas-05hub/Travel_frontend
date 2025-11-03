@@ -24,7 +24,7 @@ import munnar from "../../../../assets/munaar.jpeg";
 import mysore from "../../../../assets/mysore.jpeg";
 import ooty from "../../../../assets/ooty.jpg";
 import pondicherry from "../../../../assets/pondicherry.jpeg";
-import rann from "../../../../assets/ranofkutch.webp";
+// import rann from "../../../../assets/ranofkutch.webp";
 import rishikesh from "../../../../assets/rishikesh.jpeg";
 import shimla from "../../../../assets/shimla.jpeg";
 import varanasi from "../../../../assets/varanasi.jpeg";
